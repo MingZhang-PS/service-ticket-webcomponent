@@ -1,0 +1,24 @@
+{
+  "name": "WalkthroughTutorial",
+  "private": true,
+  "version": "1.0.0",
+  "author": "SAP SE",
+  "description": "UI5 Demo App - Walkthrough Tutorial",
+  "dependencies": {
+    "@openui5/sap.m": "^1",
+    "@openui5/sap.ui.core": "^1",
+    "@openui5/themelib_sap_belize": "^1",
+    "@ui5/webcomponents": "^0.8.0",
+    "@sap/approuter": "5.8.0"
+  },
+  "devDependencies": {
+    "cpx": "^1.5.0",
+    "rimraf": "^2.6.3",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  },
+  "scripts": {
+    "build": "rimraf dist/** && mkdir dist && cpx src/** dist && webpack",
+    "start": "node node_modules/@sap/approuter/approuter.js"
+  }
+}

@@ -1,0 +1,16 @@
+{
+	"welcomeFile": "index.html",
+	"authenticationMethod": "none",
+	"routes": [
+        {
+            "source": "^/scc/SAP_TICKET_360/(.*)$",
+            "target": "/$1",
+            "destination": "SAP_TICKET_360",
+            "csrfProtection": false
+        },
+        {
+            "source": "^(.*)$",
+            "localDir": "dist"
+        }
+    ]
+}

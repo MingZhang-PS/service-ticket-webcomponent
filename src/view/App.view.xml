@@ -1,0 +1,19 @@
+
+<mvc:View
+    controllerName="sap.ui.demo.walkthrough.controller.App"
+	xmlns:l="sap.ui.layout"
+	xmlns:core="sap.ui.core"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<l:VerticalLayout
+		class="sapUiContentPadding"
+		width="100%">
+		<l:content>
+			<!-- <html:link rel="import" href="./ticket/TicketCard.html"></html:link> -->
+			<html:script src="./ticket/TicketCard.js">
+			</html:script>
+			<html:ticket-card ticket-id="" proxy-endpoint="./scc/SAP_TICKET_360"></html:ticket-card>
+		</l:content>
+	</l:VerticalLayout>
+</mvc:View>

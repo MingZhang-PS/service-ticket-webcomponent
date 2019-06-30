@@ -1,0 +1,13 @@
+{
+  "destinations": [
+    {
+      "name": "SAP_TICKET_360",
+      "url": "https://my306768.vlab.sapbydesign.com",
+      "Authentication": "BasicAuthentication",
+      "Type": "HTTP",
+      "ProxyType": "Internet",
+      "User": "Servicemanager01",
+      "Password": "Welcome1"
+    }
+  ]
+}
